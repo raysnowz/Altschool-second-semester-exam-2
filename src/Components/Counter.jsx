@@ -17,7 +17,7 @@ const Counter = () => {
 
             <div>
             <button className='dec' onClick={decrement}>-</button>
-                <input style={{padding: '8px 16px', border: '1px solid #8c8c8c'}} value={count} onChange={(e) => e.target.value} />
+                <input type="text" style={{padding: '8px 16px', border: '1px solid #8c8c8c'}} value={count} onChange={(e) => e.target.value} />
             <button className='inc'                                                                                                  onClick={increment}>+</button>
             </div>
 
